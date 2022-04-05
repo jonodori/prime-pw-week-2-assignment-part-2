@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We make a variable called name and set it to a string called Dane.
+// We check to see if the variable name is an exact match with the string of Mary. If it is, we print 'Hi, Mary!'
+// If it's not, we print 'How do you do?'
 //
 
 //CODE
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called secret. Also, we make a variable called code and assign a number value 123.
+// We check to see if code is an exact match to 123. If it is, we assign a string "super" to the secret variable 
+// and we assign a new number value to code which is code multiplied by the number 2. 
+// We then check to see if code is greater than 250 and if it is we assign the string "duper" to secret.  
+// Then we print the value of the variable secret. 
+
 
 //CODE
 /*
@@ -70,10 +72,16 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called isStudent and assign a boolean to true.
+// We create a variable age and assign a number 34.
+// We create a variable zip and assign a number 55407.
+// We check to see if the variable isStudent is true and the zip is greater than 80000. If it is, we print "You're a student on the 
+// West Coast!".
+// If the first statement is false, we then check to see if the variable isStudent is false or the age is less than 30. If argument is true,
+// we print "What are your hobbies?"
+// If the previous statement is false, we then check to see if the variable isStudent is true and if it is, we print "Welcome to Prime!".
+// If all the above statements are false, we print "How about the weather?".
+
 
 //CODE
 /*
@@ -132,10 +140,12 @@ if (number >= 2) {
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
+// Set colorOne to 'blue' instead of red and colorTwo to 'red' 
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+// add, colorTwo = 'purple';
 }
 */
 
@@ -148,6 +158,7 @@ let temp = 40;
 const time = 4;
 
 if (temp > 39 || time >= 4) {
+// Replace || with &&   
   console.log('throw away the food!');
 }
 */
@@ -161,9 +172,12 @@ let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
+// FIX, if(age >= minAge)  
   console.log('no entry');
+// FIX, console.log('enter');  
 } else {
   console.log('enter');
+// FIX, console.log('no entry');  
 }
 */
 
